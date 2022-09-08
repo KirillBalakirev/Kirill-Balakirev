@@ -1,0 +1,23 @@
+body{
+    font-family: cursive;
+font-size: 14px;
+background-color: rgb(84, 62, 161);
+color: aliceblue; 
+}
+h1{
+    text-align: center; 
+    color:rgb(202, 9, 25)
+}
+h2{
+    color: chocolate;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+}
+.part li{
+    background-color: gold;
+    margin: 20px;
+    color: black;
+}
+.content li{
+    background-color: aqua;
+    color: crimson;
+}

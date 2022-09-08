@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+font-size: 12px;
+background-color: rgb(199, 119, 119);
+}
+h1{
+    text-align: center;
+    color:rgb(207, 221, 11) 
+}
+h2{
+    color: rgb(248, 108, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif 
+}
+.part li{
+    background-color: rgb(48, 250, 58);
+    margin: 8px;
+    color: black;
+}
+.content li{
+    background-color: rgb(241, 25, 79);
+    color: rgb(82, 10, 177);
+    margin: 30px;
+}
+p{
+    color: rgb(5, 85, 25);
+}
