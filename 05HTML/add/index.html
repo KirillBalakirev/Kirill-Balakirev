@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+    .pets {
+        width: 150px;
+        height: 200px;
+       }
+    </style>
 </head>
 <body>
     <h1 align="center">Заполните анкету</h1>
@@ -63,7 +69,7 @@
             <fieldset>
                 <legend>Домашние животные</legend>
                 Можно выбрать несколько вариантов<br>
-                <select name="pets[]" multiple="multiple" size="">
+                <select class="pets" name="pets[]" multiple="multiple" size="">
                     <optgroup label="Попугаи">
                           <option value="parrot_wavy">Волнистый</option>
                           <option value="parrot_macaw">Ара</option>
