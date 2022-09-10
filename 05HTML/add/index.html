@@ -11,13 +11,13 @@
     <form action="http://fe.it-academy.by/TestForm.php" method="post">     
         <fieldset>
             <legend>Личные данные</legend>
-            <input type="text" name="surname" placeholder="Фамилия" pattern="[А-Яа-яЁё]{1,25}"  required autofocus><br>
-            <input type="text" name="name" placeholder="Имя" pattern="[А-Яа-яЁё]{1,19}"  required><br>
-            <input type="text" name="patr" placeholder="Отчество" pattern="[А-Яа-яЁё]{1,24}"  required>
+            <input type="text" name="surname" placeholder="Фамилия" pattern="[А-Яа-яЁё]{1,}" maxlength="25"  required autofocus><br>
+            <input type="text" name="name" placeholder="Имя" pattern="[А-Яа-яЁё]{1,}" maxlength="20"  required><br>
+            <input type="text" name="patr" placeholder="Отчество" pattern="[А-Яа-яЁё]{1,24}" maxlength="24" required>
             <fieldset>
                 <legend>Паспортные данные</legend>
-                <input type="text" name="series" placeholder="AA" pattern="[A-Z]{2,2}"  required>Серия<br>
-                <input type="text" name="num" placeholder="1234567" pattern="[0-9]{7,7}" required>Номер паспорта
+                <input type="text" name="series" placeholder="AA" pattern="[A-Z]{2,2}" maxlength="2" required>Серия<br>
+                <input type="text" name="num" placeholder="1234567" pattern="[0-9]{7,7}" maxlength="7" required>Номер паспорта
             </fieldset>
             <fieldset>
                 <legend>Дата рождения</legend>
