@@ -1,0 +1,19 @@
+.list{
+    list-style: upper-roman;
+    width: 350px;
+    font-weight: bold;
+}
+.rim{
+    list-style: lower-roman;
+    font-weight:400;
+}
+.code{
+    background-color: black;
+    color: green;
+    width: 400px;
+    max-height: 75px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    overflow: auto;
+}
