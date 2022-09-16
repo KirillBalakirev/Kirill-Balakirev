@@ -1,38 +1,30 @@
-.cards{
+body{
+    background-color: black;
+}
+.cards1{
     display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.cards1 div{
+    background-image: url('cards.png');
+    background-repeat: no-repeat;
+    width: 135px; height: 186px;
+    border-radius: 15px;
+    margin-right: 5px;    
 }
 .C8{
-    background-image: url('cards.png');
-    background-repeat: no-repeat;
     background-position: -287px -1190px;
-    width: 135px; height: 186px;
-    border-radius: 15px;
 }
 .CQ{
-    background-image: url('cards.png');
-    background-repeat: no-repeat;
     background-position: -0px -1790px;
-    width: 135px; height: 186px;
-    border-radius: 15px;
 }
 .C9{
-    background-image: url('cards.png');
-    background-repeat: no-repeat;
     background-position: -430px -1390px;
-    width: 135px; height: 186px;
-    border-radius: 15px;
 }
 .CA{
-    background-image: url('cards.png');
-    background-repeat: no-repeat;
-    background-position: -143px -2190px;
-    width: 135px; height: 186px;
-    border-radius: 15px;   
+    background-position: -143px -2190px; 
 }
 .CJ{
-    background-image: url('cards.png');
-    background-repeat: no-repeat;
     background-position: -287px -2390px;
-    width: 135px; height: 186px;
-    border-radius: 15px;
 }
