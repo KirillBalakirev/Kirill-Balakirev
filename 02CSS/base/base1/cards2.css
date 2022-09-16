@@ -1,38 +1,46 @@
+body{
+    background-color: black;
+}
 .image1{
     background-image: url('cards.png');
     background-repeat: no-repeat;
     background-position: -287px -1190px;
-    width: 140px; height: 200px;
+    width: 135px; height: 186px;
+    border-radius: 15px;
 }
 .image2{
     background-image: url('cards.png');
     background-repeat: no-repeat;
     background-position: -0px -1790px;
-    width: 140px; height: 200px;
+    width: 135px; height: 186px;
     margin-left: 70px;
     margin-top: -100px;
+    border-radius: 15px;
 }
 .image3{
     background-image: url('cards.png');
     background-repeat: no-repeat;
-    background-position: -430px -1390px;
-    width: 140px; height: 200px;
-    margin-left: 140px;
+    background-position: -433px -1394px;
+    width: 135px; height: 186px;
+    margin-left: 135px;
     margin-top: -100px;
+    border-radius: 15px;
 }
 .image4{
     background-image: url('cards.png');
     background-repeat: no-repeat;
     background-position: -143px -2190px;
-    width: 140px; height: 200px;
+    width: 135px; height: 186px;
     margin-left: 210px;
-    margin-top: -100px;    
+    margin-top: -100px;
+    border-radius: 15px;    
 }
 .image5{
     background-image: url('cards.png');
     background-repeat: no-repeat;
     background-position: -287px -2390px;
-    width: 140px; height: 200px;
+    width: 135px; height: 186px;
     margin-left: 280px;
     margin-top: -100px;
+    border-radius: 15px;
 }
