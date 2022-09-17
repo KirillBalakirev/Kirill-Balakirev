@@ -1,5 +1,5 @@
 .page{
-    background-color: azure;
+    background-color: rgb(161, 206, 206);
 }
 .navigation{
     width: 15em;
@@ -8,6 +8,7 @@
 }
 .post{
     background-color: darksalmon;
+    margin-left: 15em;
 }
 .content{
     margin-top: 0.8em;
