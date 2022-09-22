@@ -14,9 +14,10 @@
     flex-direction: column;
     flex-grow: 1;
 }
-.content{
-    padding-top: 0em;
-    margin-bottom: 2em;
+.content{    
+    border-bottom-style: solid;
+    border-color: white;
+    padding-bottom: 2em;
 }
 .flex{
     display: flex;
