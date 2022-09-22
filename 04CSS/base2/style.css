@@ -1,0 +1,28 @@
+.table{
+	table-layout:auto;
+	width: 600px;
+    border-collapse: collapse;
+}
+caption{
+    caption-side: bottom;
+}
+.table thead th {
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+	padding: 5px;
+	background: #1ea330;
+}
+.table tbody td{
+    border: dotted 2px ;
+}
+.table tbody tr:nth-child(odd){
+	background: rgb(221, 153, 153);
+}
+.table tbody tr:nth-child(even){
+	background: #7f9dc4;
+}
+.table tbody tr:hover{
+    background-color: blue;
+    color: white;
+}

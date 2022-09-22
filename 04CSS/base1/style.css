@@ -1,0 +1,32 @@
+div.format>div{
+    height: 80px;
+    width: 700px;
+    text-indent: 30px;
+    border: solid 0.1px;
+    border-radius: 0px 15px 0px 15px;
+    padding: 5px;
+}
+div.format>div:first-child{
+    height: 100px;
+}
+div.list>div::before{
+    content: url(list.jpg);
+    position: relative;
+    cursor: pointer; 
+}
+div.icon{
+    display: none;
+}
+div.list>div:hover div.icon{
+    display: inline-block;
+    position: absolute;
+}
+div.icon1::after{
+    content: url(doc.jpg);
+}
+div.icon2::after{
+    content: url(pdf.png);
+}
+div.icon3::after{
+    content: url(zip.gif);
+}

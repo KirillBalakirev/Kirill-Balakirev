@@ -1,0 +1,47 @@
+div.week{
+    display: flex;
+    flex-direction: row;
+}
+div.week>div{
+    width: 100px;
+    text-align: center;
+    background-color: rgb(66, 231, 34);    
+    border: solid blue 1px;
+    position: relative;
+    cursor: pointer;    
+    transition: background 1s linear, color 1s linear;  
+}
+div.menu{
+    display: none;
+    width: 100px;
+}
+div.menu>div{
+    background-color: aqua;
+    color: black;
+    transition: background 1s linear,  color 1s linear; 
+    border: solid blue 1px;
+    cursor: pointer;
+}
+div.week>div:hover div.menu{
+    display: block;
+    position: absolute;
+    top: 100%;
+}
+div.week>div:hover{
+    background-color: rgb(80, 30, 197);
+    color: white;          
+}
+div.menu>div:hover{
+    background: gold;
+    color: rgb(6, 6, 185);
+    border: solid rgb(218, 13, 13) 1px;
+}
+@media all and (max-width: 720px){
+    div.week{
+        flex-direction: column;
+    }
+    div.week>div:hover div.menu{
+        left: 100%;
+        top: 0%;
+    }
+}

@@ -1,27 +1,30 @@
 .page{
-    background-color: rgb(142, 190, 190);
+    background-color: rgb(161, 206, 206);
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
 }
 .navigation{
     width: 15em;
     background-color: rgb(125, 163, 233);
-    float: left;
 }
 .post{
     background-color: darksalmon;
-    margin-left: 15em;
+    flex-direction: column;
+    flex-grow: 1;
 }
 .content{
     padding-top: 0em;
     margin-bottom: 2em;
 }
+.flex{
+    display: flex;
+    justify-content: end;
+}
 .icon{
-    float: right;
     width: 80px;
     height: 80px;
-}
-.clear{
-    background-color: white;
-    clear: both;
 }
 .footer{
     background-color: chartreuse;
