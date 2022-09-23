@@ -9,29 +9,33 @@ div.week>div{
     border: solid blue 1px;
     position: relative;
     cursor: pointer;    
-    transition: background 1s linear, color 1s linear;  
+    transition: background .5s linear, color .5s linear;  
 }
 div.menu{
-    display: none;
+    position: absolute;
     width: 100px;
 }
 div.menu>div{
     background-color: aqua;
     color: black;
-    transition: background 1s linear,  color 1s linear; 
+    transition: background .5s linear, color .5s linear, border .5s; 
     border: solid blue 1px;
-    cursor: pointer;
+    cursor: pointer;    
+    height: 0;
+    opacity: 0;
+    transition: all 0.7s;
 }
-div.week>div:hover div.menu{
-    display: block;
-    position: absolute;
+div.week>div:hover div.menu>div{
     top: 100%;
+    opacity: 1;
+    height: 18px;
 }
 div.week>div:hover{
     background-color: rgb(80, 30, 197);
     color: white;          
 }
 div.menu>div:hover{
+
     background: gold;
     color: rgb(6, 6, 185);
     border: solid rgb(218, 13, 13) 1px;
@@ -40,7 +44,7 @@ div.menu>div:hover{
     div.week{
         flex-direction: column;
     }
-    div.week>div:hover div.menu{
+    div.week>div:hover div.menu>div{
         left: 100%;
         top: 0%;
     }
