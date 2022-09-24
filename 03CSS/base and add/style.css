@@ -44,8 +44,10 @@ div.menu>div:hover{
     div.week{
         flex-direction: column;
     }
-    div.week>div:hover div.menu>div{
+    div.week>div:hover div.menu{
         left: 100%;
         top: 0%;
+        opacity: 1;
+        height: 18px;
     }
 }
